@@ -1,4 +1,4 @@
-# diamond
+# Diamond
 
 [?] System Requirements: Ubuntu 12.04 or Higher, Python 2.7 or Higher.
 
@@ -17,7 +17,7 @@
     $ cd ~
     $ python/diamond/create-executable.py
 
-[!] More Documentation and help is available by request, contact Apollon Data Metrics by visiting..
+[?] More Documentation and help is available by request, contact Apollon Data Metrics by visiting..
 
     http://apollondatametrics.zohosites.com
 
