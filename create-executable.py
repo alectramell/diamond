@@ -17,7 +17,7 @@ Terminal=true
 Type=Application
 ''')
 
-mkdesk = str('echo "' + mkcode + '" > /home/' + username + '/diamond/diamond.desktop && chmod +x /home/' + username + '/diamond/*.desktop')
+mkdesk = str('echo "' + mkcode + '" > /home/' + username + '/diamond/diamond.desktop && chmod +x /home/' + username + '/diamond/*.desktop && mv /home/' + username + '/diamond/diamond.desktop /home/' + username + '/Desktop/diamond.desktop')
 
 os.system(mkdesk)
 
