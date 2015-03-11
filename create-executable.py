@@ -12,7 +12,7 @@ Name=Diamond
 Comment=Diamond Python Encode Utility
 Categories=GNOME;Utility;
 Exec=python /home/''' + username + '''/diamond/__main__.py
-Icon=/usr/share/icons/Humanity/apps/64/utilities-terminal.svg
+Icon=/home/''' + username + '''/diamond/icons/diamond64x64.png
 Terminal=true
 Type=Application
 ''')
