@@ -9,15 +9,18 @@ os.system('clear')
 username = getpass.getuser()
 username = str(username)
 
+filename = raw_input('filename: ')
+filename = str(filename)
+
 intr = str('#!/usr/bin/python\n')
 spce = str('# (c) 2015 | Diamond Code Conversion for Python Libraries | Alec Tramell, DMA | alectramell@gmail.com')
-info = str('# Simply import this file to use variables within your Python package ;)\n')
+info = str('''# [?] use >> from ''' + filename + ''' import * << to import this file ;)\n''')
 defn = str('''def diamond():''')
 
-os.system('echo "' + intr + '" > /home/' + username + '/Desktop/file.py')
-os.system('echo "' + spce + '" >> /home/' + username + '/Desktop/file.py')
-os.system('echo "' + info + '" >> /home/' + username + '/Desktop/file.py')
-os.system('echo "' + defn + '" >> /home/' + username + '/Desktop/file.py')
+os.system('echo "' + intr + '" > /home/' + username + '/Desktop/' + filename + '.py')
+os.system('echo "' + spce + '" >> /home/' + username + '/Desktop/' + filename + '.py')
+os.system('echo "' + info + '" >> /home/' + username + '/Desktop/' + filename + '.py')
+os.system('echo "' + defn + '" >> /home/' + username + '/Desktop/' + filename + '.py')
 
 os.system('clear')
 
@@ -76,14 +79,20 @@ for char in word:
        char = str('''    y = str('y')''')
     if char == ('z'):
        char = str('''    z = str('z')''')
-    os.system('echo "' + char + '" >> /home/' + username + '/Desktop/file.py')
+    os.system('echo "' + char + '" >> /home/' + username + '/Desktop/' + filename + '.py')
     time.sleep(.25)
+
+xcom = list(word)
+dcom = ' + '.join(xcom)
+dcom = str(dcom)
 
 os.system('clear')
 
-os.system('echo "\ndiamond()" >> /home/' + username + '/Desktop/file.py')
+os.system('echo "    print (' + dcom + ')" >> /home/' + username + '/Desktop/' + filename + '.py')
 
-os.system('gedit /home/' + username + '/Desktop/file.py &')
+os.system('echo "\ndiamond()" >> /home/' + username + '/Desktop/' + filename + '.py')
+
+os.system('gedit /home/' + username + '/Desktop/' + filename + '.py &')
 
 os.system('clear')
 
