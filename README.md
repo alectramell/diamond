@@ -15,7 +15,7 @@
 ..or..
 
     $ cd ~
-    $ python/diamond/create-executable.py
+    $ python diamond/create-executable.py
 
 [?] More Documentation and help is available by request, contact Apollon Data Metrics by visiting..
 
