@@ -1,6 +1,6 @@
 # Diamond Code Downloader for Ubuntu
 
-Diamond Code Downlaoder is Apollon Data Metrics Agency's way of saying THANKYOU! Entering Diamond Codes result in FREE Ubuntu Apps, Browser Plugins, ADM Script Archives, and More! Just follow the steps below to begin redeeming Diamond Codes! 
+Diamond Code Downloader is Apollon Data Metrics Agency's way of saying THANKYOU! Entering Diamond Codes result in FREE Ubuntu Apps, Browser Plugins, ADM Script Archives, and More! Just follow the steps below to begin redeeming Diamond Codes! 
 
 (1) Download..
 
