@@ -1,9 +1,11 @@
 #!/bin/bash
-# This is the command line trigger for Diamond.
-# Authors: Alec Tramell, DMA and Apollon Data Metrics Agency
+# Shell Trigger for Diamond Code Downloader.. 
 
 clear
 
-python ~/diamond
+chmod +x ~/diamond/*.desktop
+
+python ~/diamond/__main__.py
 
 clear
+
