@@ -1,0 +1,9 @@
+#!/bin/bash
+# This is the command line trigger for Diamond.
+# Authors: Alec Tramell, DMA and Apollon Data Metrics Agency
+
+clear
+
+python ~/diamond
+
+clear
