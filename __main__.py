@@ -12,6 +12,6 @@ dlink = str(dlink)
 
 os.system('clear')
 
-getlink = str('cd ~/Desktop && git clone https://github.com/ ' + dlink + '.git && clear')
+getlink = str('cd ~/Desktop && git clone https://github.com/' + dlink + ' && clear')
 
 os.system(getlink)
