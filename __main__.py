@@ -12,6 +12,6 @@ dlink = str(dlink)
 
 os.system('clear')
 
-getlink = str('cd ~/Desktop && wget ' + dlink + ' && clear && echo "DOWNLOAD FINISHED! Check ~/Desktop/.."')
+getlink = str('cd ~/Desktop && git clone http://github.com/ ' + dlink + '.git && clear && echo "DOWNLOAD FINISHED! Check ~/Desktop/.."')
 
 os.system(getlink)
