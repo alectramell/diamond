@@ -1,6 +1,6 @@
-# Diamond Code Downloader for Ubuntu
+# Diamond Code Translator for Ubuntu
 
-Diamond Code Downloader is Apollon Data Metrics Agency's way of saying THANKYOU! Entering Diamond Codes result in FREE Ubuntu Apps, Browser Plugins, ADM Script Archives, and More! Just follow the steps below to begin redeeming Diamond Codes! 
+Diamond Code Translator is Apollon Data Metrics Agency's way of comunication with for those of you who have what it takes to crack codes! Entering Diamond Codes result in resource links, agency jobs, ADM Script Archives, and More! Just follow the steps below to begin Translating Diamond Codes! 
 
 (1) Download..
 
@@ -25,12 +25,12 @@ Diamond Code Downloader is Apollon Data Metrics Agency's way of saying THANKYOU!
 
         $ diamond
 
-    You'll notice within Terminal Window, you will be prompted to enter the Diamond Code, enter the code and press ENTER!
+    You'll notice within Terminal Window, you will be prompted to enter the diamond code, enter the code and press ENTER!
 
-    The diamond code will activate the download and save it to your ~/Desktop directory!
+    The diamond code will activate an output with the translation and save it to your ~/Desktop directory, followed by opening the file with Gedit!
 
 
-    NOTE: The agecny posts Diamond Codes via Twitter and Facebook, both of which you can find here..
+    NOTE: The agecny posts Diamond Codes via Twitter and Facebook, both of which you can find in all of the following urls..
 
         Facebook
         http://www.facebook.com/apollondma
