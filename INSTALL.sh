@@ -2,10 +2,12 @@
 
 clear
 
-chmod +x ~/diamond/diamond
-chmod +x ~/diamond/*.sh
-chmod +x ~/diamond/*.py
+gnome-terminal --title="INSTALL" -x sh -c "sudo apt-get install python-scapy tcpdump isc-dhcp-server hostapd"
 
-DPASS=$(zenity --password --title="Authenticate to Install..") && echo $DPASS | sudo -S chmod 755 ~/diamond/diamond && echo $DPASS | sudo -S cp ~/diamond/diamond /usr/local/bin/diamond && zenity --info --title="Diamond Code Translater" --text="Install Complete! To use diamond code translater, open a new Terminal Window and type: diamond"
+gnome-terminal --title="INSTALL" -x sh -c "cd ~/ && git clone https://github.com/sophron/wifiphisher.git"
+
+clear
+
+INDONE=$(zenity --info --title="INSTALL" --text="Installation Complete!")
 
 clear
